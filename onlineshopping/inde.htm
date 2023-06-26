@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <style>
+        body{
+             background-color: rgba(237, 95, 95, 0.729);
+        }
+        .data{
+
+            background-color: rgb(226, 118, 118);
+            display: block;
+            width: 80%;
+            margin: auto;
+            margin-top: 40px;
+            text-align: center;
+            justify-content: center;
+            color: white; 
+            padding: 12px;
+        }
+      .heading{
+            font-size: 40px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        .data >p{
+            font-size: 20px;
+            color: black;
+        }
+        .table{
+            
+            width: 500px;
+            height: 100px;
+        }
+        table, th, td {
+              border:1px solid black;
+        }
+        .table td{
+           
+            background-color: blue;
+        }
+        .table tr{
+            color: black;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <section class="data">
+    <h1 class="heading">Registration</h1>
+    <p>Name:Lucky ali</p>
+    <p>Phone:9939399393</p> 
+    <p>Designation: Software Dev</p>
+    <p>Address: Meerut ( daurala) Up</p>
+    </section>
+
+    <section class="data">
+        <h1 class="heading">Table</h1>
+        <div id="table">
+        <table class="table">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+    </section>
+    <section class="data">
+        <h1 class="heading">Table using Rowspan and colum span</h1>
+    
+        <table class="table">
+            <tr>
+                <td colspan="3">1</td>
+                <td>2</td>
+                <td rowspan="3">3</td>
+            </tr>
+            <tr>
+                <td colspan="4">3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>4</td>
+                <td colspan="3">4</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td colspan="3">3</td>
+                <td>3</td>
+                
+
+            </tr>
+           
+        </table>
+    
+    </section>
+
+
+    
+</body>
+</html>
